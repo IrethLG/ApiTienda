@@ -13,6 +13,7 @@ namespace ApiTienda.Context
         {
 
         }
+        public DbSet<Users> Users { get; set; }
         public DbSet<Cliente> Cliente { get; set; }
         public DbSet<Empleado> Empleado { get; set; }
         public DbSet<Proveedor> Proveedor { get; set; }
